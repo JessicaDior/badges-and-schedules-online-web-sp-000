@@ -12,8 +12,10 @@ end
 
 def assign_rooms(attendees)
   array = []
-  attendees.each_with_index |name, room|
+  attendees.each_with_index do |name, room|
     array<<batch_badge_creator
+  end
+    return array
 end
 
 def printer
