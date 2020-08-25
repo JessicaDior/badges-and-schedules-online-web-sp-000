@@ -10,7 +10,10 @@ def batch_badge_creator(attendees)
     return array
 end
 
-def assign_rooms(names)
+def assign_rooms(attendees)
+  array = []
+  attendees.each_with_index |name, room|
+    array<<batch_badge_creator
 end
 
 def printer
